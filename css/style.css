@@ -1983,7 +1983,7 @@ body{
 }
 .solmenu{
     width: 15%;
-    background: #1A1E24;
+    background: #0A1126;
     position: absolute;
     z-index: 9;
     top: 0;
@@ -2023,14 +2023,14 @@ body{
 .sayfa{
 	height: 35px;
 	line-height: 35px;
-	color: #F4EED8;
+	color: #ffffff;
 	width: 100%;
-	background: #1A1E24;
+	background: #0A1126;
 	float: left;
 	text-align: left;
 	padding-left: 25px;
 	cursor: pointer;
-	border-bottom: 2px solid #009157;
+	border-bottom: 2px solid #DD2A3B;
 	margin-bottom: 5px;
 	overflow: hidden;
 }
@@ -2038,7 +2038,7 @@ body{
 	height: 35px;
     line-height: 35px;
     color: #F4EED8;
-    background: #1A1E24;
+    background: #0A1126;
     float: left;
     text-align: center;
     margin-top: 30px;
@@ -2051,15 +2051,15 @@ body{
 	cursor: pointer;
 }
 #kapa:hover{
-	color: #DD2A3B;
+	color: #009157;
 }
 .sayfa:hover{
-	border-bottom: 2px solid #DD2A3B;
-	background: #121519;
+	border-bottom: 2px solid #009157;
+	background: #0A1126;
 }
 .acik{
-	border-bottom: 2px solid #DD2A3B;
-	background: #121519;
+	border-bottom: 2px solid #009157;
+	background: #19575c;
 }
 .sag{
 	width: 85%;
@@ -2203,4 +2203,71 @@ body{
 
 .buton:hover {
 	transform: scale(1.5, 1.5);
+}
+
+/*-------------------------------------------------------*/
+  /* Login Form */
+/*-------------------------------------------------------*/
+.login-form{
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: rgba(58,78,95,0.2) 0 10px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
+	padding: 20px;
+}
+.login-section .form-group {
+	margin-bottom: 35px;
+}
+.login-section .form-control {
+	border: none;
+	border-bottom: 2px solid #a2a2a2;
+	box-shadow: none;
+	padding:6px 0;
+	border-radius: 0;
+}
+.login-section .form-group.action {
+	margin-bottom: 0;
+	text-align: center;
+}
+.login-section textarea.form-control {
+	border: 2px solid #a2a2a2;
+	padding:6px;
+}
+.login-info {
+	background:#fff; 
+	position: relative;
+	padding: 10px 10px 10px 90px;
+	margin-bottom: 30px;
+	box-shadow: rgba(58,78,95,0.2) 0 10px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
+	border-radius: 10px;
+}
+.login-info i{
+	font-size: 16px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	background: #000;
+	border-radius: 50%;
+	color: #fff;
+}
+.login-info a {
+	color: #666;
+}
+.login-info h4{
+	margin: 0 0 10px;
+	font-weight: 600;
+}
+.login-info p{
+	font-size: 15px;
+	color: #666;
+	margin: 0;
+}
+
+@media (max-width: 767px){
+	.login-form {
+		margin-bottom: 30px;
+	}
 }

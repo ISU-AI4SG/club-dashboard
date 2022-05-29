@@ -22,10 +22,6 @@ require('configs.php');
 
     <link href="css/style.css" rel="stylesheet">
     <link href="css/color/default.css" rel="stylesheet" id="color_theme">
-
-    <style type="text/css">
-      
-    </style>
     <script>
         history.pushState(null, "null", "");
     </script>
@@ -77,7 +73,7 @@ require('configs.php');
             </div>
             <div class="sayfalar">
                 <div class="sayfa acik" onclick="sayfadegis('homepage.php')"><i class="fas fa-home"></i>&nbsp;&nbsp;&nbsp; Homepage</div>
-                <div class="sayfa" onclick="sayfadegis('example.php')"><i class="fas fa-key"></i>&nbsp;&nbsp;&nbsp; Example Page</div>
+                <div class="sayfa" onclick="sayfadegis('addevent.php')"><i class="fa-solid fa-calendar-plus"></i>&nbsp;&nbsp;&nbsp; Add Event</div>
                 <div class="kapa"><i onclick="kapa()" id="kapa" class="fas fa-caret-square-left"></i></div>
                 <i class="fas fa-power-off cikis"></i>
             </div>
